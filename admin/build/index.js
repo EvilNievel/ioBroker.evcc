@@ -58417,7 +58417,7 @@ exports.default = hasClass;
 
 /**
  * Checks if a given element has a CSS class.
- * 
+ *
  * @param element the element
  * @param className the CSS class name
  */
@@ -58439,7 +58439,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 /**
  * Adds a CSS class to a given element.
- * 
+ *
  * @param element the element
  * @param className the CSS class name
  */
@@ -58459,7 +58459,7 @@ function replaceClassName(origClass, classToRemove) {
 }
 /**
  * Removes a CSS class from a given element.
- * 
+ *
  * @param element the element
  * @param className the CSS class name
  */
@@ -67207,7 +67207,7 @@ module.exports = reloadCSS;
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
-      
+
 },{"_css_loader":"../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../node_modules/@iobroker/adapter-react/Components/Loader.js":[function(require,module,exports) {
 "use strict";
 
@@ -67257,7 +67257,7 @@ var styles = function styles(theme) {
  * @property {number} [size] The size in pixels of this loader.
  * @property {string} [themeType] The chosen theme type.
  * @property {string} [theme] The chosen theme.
- * 
+ *
  * @extends {React.Component<LoaderProps>}
  */
 
@@ -68127,7 +68127,7 @@ exports["default"] = _default;
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
-      
+
 },{"_css_loader":"../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../node_modules/@iobroker/adapter-react/i18n/en.json":[function(require,module,exports) {
 module.exports = {
     "ra_Are you sure?": "Are you sure?",
@@ -79772,7 +79772,7 @@ function (_super) {
   Settings.prototype.render = function () {
     return react_1.default.createElement("form", {
       className: this.props.classes.tab
-    }, this.renderInput('ip', 'ip', 'text'), " ", react_1.default.createElement("br", null), this.renderInput('polltime', 'polltime', 'number'));
+    }, this.renderInput('ip', 'ip', 'text'), " ", react_1.default.createElement("br", null),this.renderInput('port', 'port', 'text'), " ", react_1.default.createElement("br", null), this.renderInput('polltime', 'polltime', 'number'));
   };
 
   return Settings;
@@ -79783,12 +79783,14 @@ exports.default = (0, styles_1.withStyles)(styles)(Settings);
 module.exports = {
   "evcc adapter settings": "Adapter settings for evcc",
   "ip": "Ip to your evcc instance",
+  "port": "Port to your evcc instance"
   "polltime": "Polltime in seconds"
 };
 },{}],"i18n/de.json":[function(require,module,exports) {
 module.exports = {
   "evcc adapter settings": "Adaptereinstellungen für evcc",
   "ip": "Ip zur Evcc instanz",
+  "port": "Port der Evcc instanz"
   "polltime": "Aktualisierungsrate in Sekunden"
 };
 },{}],"i18n/ru.json":[function(require,module,exports) {
